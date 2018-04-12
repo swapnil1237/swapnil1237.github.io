@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<style>
+body{
+	background-color: azure;
+	font-family:Verdana,Georgia;
+	font-size:14px;
+	margin-right:70px;
+	margin-left:8px;
+	}
+
+
+
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+frm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	margin-left:20px;
+	margin-right:50px;
+	display:block;
+}
+</style>
+
+
+<head>
+	<title> </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<body style="background-color:azure;
+	font-family:Verdana,Georgia;
+	">
+	
+	<h2 style="font-size:30px;">Welcome to our Waste-to-Wealth Section...</h2>
+	<p style="font-size:20px;"><i>
+		In this section , we tell you how you can make better use of your waste.We collect your waste ,process it and then convert it into useful energy.<br>
+		To know more about the process ,click on the video below:
+	
+	</i></p>
+	<br>
+	
+	<center><video width="640" height="360" controls>
+  <source src="video.mp4" type="video/mp4">
+	</video></center>
+	<br><br>
+	
+	<h2 style="font-size:30px;">How you can contribute...</h2>
+	<p style="font-size:20px;"><i>
+		We collect these types of wastes:<br><br>
+		<strong>&nbsp&nbsp&nbsp&nbspPaper<br>
+		&nbsp&nbsp&nbsp&nbspPlastic waste<br>
+		&nbsp&nbsp&nbsp&nbspOrganic waste<br>
+		&nbsp&nbsp&nbsp&nbspMetal Scrap<br></strong><br>
+		
+		If you have anyone of the type of waste mentioned ,then let us know. We will provide you door-to-door waste collection service.<br>
+		To avail our services to you ,fill in the details below:
+		</i></p><br>
+		<div class="frm">
+  <form action="service.php" method="post">
+    <label for="fname">UserName</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required><br>
+
+    
+    <label for="cnum">Contact Number</label><br>
+    <input type="number" id="cnum" name="Contactnumber" placeholder="Your contact number.." required><br>
+    
+	 <label for="pass">Address</label><br>
+    <input type="text" id="pass" name="Address" placeholder="Your address.." required><br>
+     
+    <input type="submit" value="Submit">
+	<br><br><br><br>
+  </form>
+</div>
+	
+	
+	
+	
+	</body>
+</html>

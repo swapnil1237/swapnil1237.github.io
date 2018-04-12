@@ -1,0 +1,106 @@
+body{
+	background-color: azure;
+	margin:0px;
+	font-family:Verdana,Georgia;
+	font-size:14px;
+}
+
+h1{
+	margin-left:50px;
+	text-shadow: 4px 4px black;
+	color:white;
+	font-size:50px;
+}
+
+#nav ul{
+	margin-left:10px;
+	padding:0px;
+	list-style:none;
+	}
+#nav ul li{
+	float:left;
+	width:260px;
+	height:40px;
+	opacity:.8;
+	font-weight:bold;
+	line-height:40px;
+	text-align:center;
+	font-size:22px;
+}
+#nav ul li a{
+	text-decoration:none;
+	color:snow;
+	display:block;
+	
+}
+#nav ul li a:hover{
+	background-color:#999999;
+}
+#nav ul li ul li{
+	display:none;
+}
+#nav ul li:hover ul li{
+	display:block;
+}
+#header{
+	background-color:white;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:400px;
+	background-image:url(plant.jpg);
+	border-radius:7px;
+}
+
+.main{
+	margin-left:340px;
+	border-radius:7px;
+	margin-top:150px;
+	font-size:24px;
+}
+
+.imag{
+	display:block;
+	float:right;
+	margin:0px;
+	width:460px;
+	border-radius:220px;
+}
+
+
+#theform{
+	color:black;
+	display:table;
+	padding:15px;
+	font-size:20px;
+}
+.row{
+	display:table-row;
+}
+.row label{
+	display:table-cell;
+	padding:2px;
+	text-align:right;
+}
+.row input{
+	display:table-cell;
+	padding:2px;
+}
+
+.button {
+    background-color: grey;
+    color: black;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border: solid 1px black;
+    cursor: pointer;
+}
+.button:hover{
+	background-color: grey ;
+	color: white;
+}

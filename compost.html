@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<style>
+body{
+	background-color: azure;
+	font-family:Verdana,Georgia;
+	font-size:14px;
+	margin-right:70px;
+	margin-left:8px;
+	}
+
+
+
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+frm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	margin-left:20px;
+	margin-right:50px;
+	display:block;
+}
+</style>
+
+
+<head>
+	<title> </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<img style="display:block;
+	float:right;
+	margin:0px;
+	width:460px;" src="compost.png">
+<div style="margin-left:40px;
+	border-radius:7px;
+	margin-top:10px;
+	font-size:24px;">
+	<p><strong><i><hr>
+		Buy compost from us which is produced by treating the organic waste...<br>
+		Fill the given form and provide us the opportunity to avail our services to you...
+	</i><hr>
+	</strong></p>
+</div>
+
+<div class="frm">
+<h2>Fill details:</h2>
+  <form action="compost_user.php" method="post">
+    <label for="fname">UserName</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required><br>
+
+    
+    <label for="cnum">Contact Number</label><br>
+    <input type="number" id="cnum" name="Contactnumber" placeholder="Your contact number.." required><br>
+    
+	 <label for="pass">Address</label><br>
+    <input type="text" id="pass" name="Address" placeholder="Your address.." required><br>
+	
+	  <label for="quan">Quantity (in kg)</label><br>
+    <input type="number" id="quan" name="Quantity" placeholder="Compost quantity.." required><br>
+     
+    <input type="submit" value="Submit">
+	<br><br><br><br>
+  </form>
+</div>
+
+
+</html>
